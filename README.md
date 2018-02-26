@@ -84,7 +84,7 @@ Content-Length: 13
 {"cmd":"pop"}
 ```
 
-## Map Type Commands
+## Map Type Commands
 
 ### Set a map key
 
