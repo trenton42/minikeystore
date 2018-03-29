@@ -19,7 +19,7 @@ type Item struct {
 	Type        string
 }
 
-// Storage holds
+// Storage holds all values in the keystore as well as acting as a mutex to protect read/write access to the data
 type Storage struct {
 	sync.RWMutex
 	items map[string]*Item
